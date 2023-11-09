@@ -53,6 +53,10 @@ form{
     color: var(--color-pepper);
 }
 
+.card-text{
+    margin-bottom: 8px;
+}
+
 footer{
     background-color: var(--color-burgundy);
     margin: 0;
