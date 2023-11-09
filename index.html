@@ -9,6 +9,9 @@
     <link rel="shortcut icon" href="./images/chair.png" type="image/x-icon" />
 
     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Diphylleia&family=Montserrat&family=Montserrat+Alternates&family=Roboto&display=swap" rel="stylesheet">
 
     <!-- BS Icons -->
     <link
@@ -29,9 +32,125 @@
 </html>
 <body>
 
-    <div class="container-fluid">
-
+    <div class="container-fluid bg-burgundy">
+      <!-- menu navegação -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand logo text-light" href="#">Gulliver Traveller</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link  text-light active" aria-current="page" href="#">Hospedagem</a>
+              <a class="nav-link text-light" href="#">Roteiros</a>
+              <a class="nav-link text-light" href="#">Informe-se</a>
+              <a class="nav-link text-light" href="#">Serviços</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </div>
+
+    <div class="container-fluid">
+      <div class="container text-center my-4">
+        <form action="">
+          <h6>Boas opções para:</h6>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Turismo</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Negócios</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" checked>
+            <label class="form-check-label" for="inlineRadio2">Trabalho</label>
+          </div>
+        </form>
+        <hr>
+      </div>
+
+      <div class="container cards text-center bg-babyblue p-4 mb-4">
+        <h6>Opções disponíveis em São Paulo para: <span class="optionChecked">Trabalho</span> </h6>
+
+        <div class="row mt-4">
+          <div class="col-lg-4 mb-2">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="./images/hilton.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Hilton Hotel</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-primary">Ver mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-2">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="./images/mercure.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Grand Mercure Hotel</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-primary">Ver mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-2">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="./images/renaissance.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Renaissance Hotel</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-primary">Ver mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-1">
+          <div class="col-lg-4 mb-2">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="./images/rosewood.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Rosewood Hotel</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-primary">Ver mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-2">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="./images/tivoli.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tivoli Mofarrej Hotel</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-primary">Ver mais</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-2">
+            <div class="card mx-auto" style="width: 18rem;">
+              <img src="./images/tree.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Blue Tree Hotel</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-primary">Ver mais</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<footer class="text-center p-1">
+      <h6 class="foot"><em>Fase-3-Atividade-1 © 2023 ~ 2025</em></h6>
+</footer>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

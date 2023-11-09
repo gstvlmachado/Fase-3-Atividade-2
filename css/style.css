@@ -1,3 +1,65 @@
 :root{
-    
+    --font-body: 'Roboto', sans-serif;
+    --font-title: 'Diphylleia', serif;
+    --color-babyblue: #D4F1F4;
+    --color-burgundy: #BA0F30;
+    --color-pepper: #E32227;
+    --color-offwhite: #FFFAFA;
+    --color-darkyellow: #FFBF00;
+    --color-pastelyellow: #FFF4BD;
+    --color-yellow: #FFD700;
+    --duration: 0.5s;
+}
+
+body{
+    font-family: var(--font-body);
+}
+
+.bg-burgundy{
+    background-color: var(--color-burgundy);
+}
+
+.bg-babyblue{
+    background-color: var(--color-babyblue);
+    border-radius: 5px;;
+}
+
+.logo{
+    font-family: var(--font-title);
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: var(--color-offwhite) !important;
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    color: var(--color-yellow) !important;
+    transition: var(--duration);
+}
+
+.active {
+    color: var(--color-yellow) !important;
+}
+
+form{
+    background-color: var(--color-babyblue);
+    padding: 35px 0;
+    border-radius: 5px;
+}
+
+.optionChecked{
+    color: var(--color-pepper);
+}
+
+footer{
+    background-color: var(--color-burgundy);
+    margin: 0;
+    padding: 0;
+}
+
+.foot{
+    font-size: 0.8rem;
+    color: var(--color-yellow);
 }
